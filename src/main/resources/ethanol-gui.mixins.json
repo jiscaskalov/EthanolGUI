@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "jsco.dev.ethanolgui.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "MinecraftClientMixin",
+    "MouseAccessor",
+    "MouseMixin",
+    "Renderer2dAccessor",
+    "ShaderProgramAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

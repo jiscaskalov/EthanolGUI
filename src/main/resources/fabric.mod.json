@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ethanol-gui",
+  "version": "${version}",
+  "name": "EthanolGUI",
+  "description": "",
+  "authors": [
+    "jsco"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ethanol-gui/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "jsco.dev.ethanolgui.client.EthanolGUI"
+    ]
+  },
+  "mixins": [
+    "ethanol-gui.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
